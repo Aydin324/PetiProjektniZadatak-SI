@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projekat 5.</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><p id="m"></p></header>
+    <div class="container">
+      <form>
+        <table>
+          <tr>
+            <td><label>Username: </label></td>
+            <td><input type="text" id="uInput" /></td>
+          </tr>
+          <tr>
+            <td><label>Password: </label></td>
+            <td><input type="text" id="pInput" /></td>
+          </tr>
+        </table>
+        <div class="container">
+          <input type="button" value="Log in" id="submit" />
+        </div>
+      </form>
+    </div>
+
+    <div id="dash">
+      <div id="users"></div>
+      <div id="addUser">
+        <div class="container">
+          <form>
+            <table>
+              <tr>
+                <td><label>Username: </label></td>
+                <td><input type="text" id="uInput2" /></td>
+              </tr>
+              <tr>
+                <td><label>Password: </label></td>
+                <td><input type="text" id="pInput2" /></td>
+              </tr>
+              <tr>
+                <td><label>Is Admin: </label></td>
+                <td><input type="checkbox" id="ckc" /></td>
+              </tr>
+            </table>
+            <div class="container">
+              <input type="button" value="Add new user" id="add" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
